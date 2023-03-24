@@ -1,0 +1,24 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.15.5",
+    "tsx": "^3.12.6",
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "csv-generate": "^4.2.2",
+    "csv-parse": "^5.3.6",
+    "date-fns": "^2.29.3",
+    "date-fns-timezone": "^0.1.4",
+    "dotenv": "^16.0.3"
+  }
+}
